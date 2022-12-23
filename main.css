@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 4300px;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed-section {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.firstpage {
+  background: url("../parallax/img/0.jpg");
+  z-index: 2;
+}
+
+.secondpage {
+  background: #cabaad;
+}
+
+.thirdpage {
+  transform: translate3d(0, 100vh, 0);
+  background: #231f20;
+  padding-top: 30px;
+}
+.thirdpage .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+}
+.thirdpage .imgs {
+  /* margin: 100px 0; */
+  position: relative;
+  top: -70px;
+}
+
+.img {
+  position: absolute;
+  display: block;
+  top: 10vw;
+}
+
+.img1 {
+  left: calc(34vw - 350px);
+}
+
+
+.thirdpage .title h2 {
+  color: #c2c2c2;
+}
+
+.background,
+.middleground,
+.foreground {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bg-block {
+  position: absolute;
+  bottom: -10vh;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  transform: skewY(-2deg);
+}
+
+.mg-block {
+  background: url("../parallax/img/3.jpg");
+  position: absolute;
+  bottom: -45vh;
+  left: -30vw;
+  width: 100%;
+  height: 40vh;
+  transform: skewY(40deg);
+}
+
+.fg-block {
+  background: url("../parallax/img/3.jpg");
+  position: absolute;
+  bottom: -45vh;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  transform: skewY(-20deg);
+}
+/* for test */ 
+.mg2-block {
+  background: url("../parallax/img/3.jpg");
+  position: absolute;
+  top: -13vh;
+  right: -37vw;
+  width: 100%;
+  height: 39vh;
+  transform: skewY(40deg);
+}
+
+.fg2-block {
+  background: url("../parallax/img/3.jpg");
+  position: absolute;
+  top: -53vh;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  transform: skewY(-20deg);
+}
+
+/* for test */ 
+.heading {
+  position: absolute;
+  font-size: 7vw;
+  left: 28vw;
+  bottom: 20vw;
+}
+
+.firstpage h1 {
+  color: #f4f4f4;
+}
+
+.secondpage {
+background: url(../parallax/img/scond.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.secondpage h1 {
+  color: #fdeabf;
+  transform: scale(1.35);
+  position: absolute;
+  top: 310px;
+  left: 181px;
+}
+
+.secondpage h1 span {
+  display: inline-block;
+}
+
+.turtlemascot {
+  position: absolute;
+  width: 40vw;
+  left: 32vw;
+  bottom: 17vw;
+  transform: scale(0);
+}
+
+.bottom-sect {
+  height: 665px;
+}
+.aboutMe{
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+
